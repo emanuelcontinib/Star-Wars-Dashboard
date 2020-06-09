@@ -14,15 +14,12 @@ body {
 }
 
 .info-container {
-
     width: 300px;
     height: 150px;
 
     background-color: none;
     border: solid #ffcc59;
     border-radius: 12px;
-
-    
 }
 
 button {
@@ -32,39 +29,29 @@ button {
     border-radius: 8px;
     border: solid #ffcc59;
 
-    color: #f0f0f5;
+    color: #ffcc59;
     font-weight: bold;
     font-size: 16px;
 
-
-
     margin-top: 40px;
-
 
     transition:250ms;
     background: none;
 }
 button:hover{
-    background-color: #f7b92750;
+    background-color: #2746f750;
 }
 
 input {
-
-    width: 300px;
-    height: 150px;
-    align-items: center;
+    align-content: center;
     justify-content: center;
-    color: lavender;
+    width: 296px;
+    height: 144px;
+    border:none;
 
-    align-items: center;
-    justify-content: center;
-    
-
-
-    background-color: none;
-    background: none;
-    border: 0;
+    color: rgba(240, 248, 255, 0.562);
     font-size: 24px;
 
-    border-radius: 10px;
+    background: none;
 }
+
