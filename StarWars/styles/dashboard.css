@@ -12,12 +12,12 @@
 .card {
     background: solid #ffffff;
     width: 239px;
-  height: 132px;
+    height: 132px;
 
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
 
-    flex-direction: column;
+    margin: 0 20px;
 }
 
 .card card-content {
@@ -26,4 +26,9 @@
 
 .card .card-container {
     display: flex;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
 }
